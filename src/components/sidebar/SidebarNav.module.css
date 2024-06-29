@@ -1,0 +1,19 @@
+.nav{
+    background: #fff;
+    border-radius: .5rem;
+    padding: .3rem;
+}
+
+.nav ul li{
+    width: 100%;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.nav ul li:hover{
+    background: #F2F5FA;
+}
+
+.nav ul li a:hover{
+    color: #0D6AE1;
+}
