@@ -10,7 +10,7 @@ const Post = () => {
         <section className={styles.post}>
             <div className={styles.wrapper}>
                 <img src={pic} alt='avatar' />
-                <input type='text' placeholder="What's on your mind, Madrugada?" />
+                <input type='text' placeholder="O que você tem em mente, Madrugada?" />
             </div>
             <div className={styles.buttons}>
                 <div>

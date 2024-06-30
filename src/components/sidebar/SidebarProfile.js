@@ -4,16 +4,26 @@ import styles from './SidebarProfile.module.css';
 import React from 'react';
 // images
 import bg from '../../assets/react.png';
-import pic from '../../assets/profile-pic.png';
 
 const Profile = () => {
+    const [data, setData] = React.useState([]);
+
+    React.useEffect(() => {
+        const fetchPosts = async () => {
+            const response = await fetch('https://api.escuelajs.co/api/v1/users/1');
+            const result = await response.json();
+            setData(result);
+        }
+        fetchPosts();
+    }, [])
+
     return (
         <article className={styles.profile}>
             <img src={bg} alt='' className={styles.bg} />
-            <img src={pic} alt='' className={styles.pic} />
+            <img src={data.avatar} alt={data.name} className={styles.pic} />
             <div className={styles.description}>
-                <h5>Madrugada de Carvalho</h5>
-                <button>My Profile</button>
+                <h5>{data.name}</h5>
+                <button>Perfil</button>
             </div>
         </article>
     )

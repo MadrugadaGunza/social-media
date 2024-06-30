@@ -1,14 +1,13 @@
 import styles from './FriendItem.module.css'
 import React from 'react'
-import pic from '../../assets/profile-pic.png'
 
-const FriendItem = () => {
+const FriendItem = ({ image, name }) => {
     return (
         <article className={styles.item}>
             <div className={styles.profile}>
-                <img src={pic} alt='avatar' />
+                <img src={image} alt={name} />
                 <div>
-                    <h5>Madrugada de Carvalho</h5>
+                    <h5>{name}</h5>
                     <p>13 Mutual Friends</p>
                 </div>
                 <div></div>

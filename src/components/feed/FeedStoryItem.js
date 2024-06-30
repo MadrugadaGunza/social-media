@@ -2,16 +2,12 @@
 import styles from './FeedStoryItem.module.css'
 // dependencies
 import React from 'react'
-// images
-import pic2 from '../../assets/img-story.jpg'
 
-const FeedStoryItem = () => {
+const FeedStoryItem = ({ item }) => {
     return (
         <article className={styles.card}>
-            <img src={pic2} alt='story' />
-            <div>
-                <h5>Name Friend</h5>
-            </div>
+            <img src={item.avatar} alt={item.name} />
+            <div><h5>{item.name}</h5></div>
         </article>
     )
 }
