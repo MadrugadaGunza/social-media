@@ -1,0 +1,21 @@
+.friend{
+    background: #fff;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.friendTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.friendTitle a{
+    color: #0D6AE3;
+    font-size: .8rem;
+}
+
+.activity{
+    margin-top: 2rem;
+}

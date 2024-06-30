@@ -1,5 +1,5 @@
 // styles
-import styles from './Profile.module.css';
+import styles from './SidebarProfile.module.css';
 // dependencies
 import React from 'react';
 // images

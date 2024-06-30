@@ -1,0 +1,9 @@
+.story {
+    background: #fff;
+    padding: .3rem;
+    border-radius: .5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    margin-bottom: 1rem;
+}

@@ -1,11 +1,11 @@
 import React from 'react'
-import Profile from './Profile'
+import SidebarProfile from './SidebarProfile'
 import SidebarNav from './SidebarNav'
 
 const Sidebar = () => {
     return (
         <section>
-            <Profile />
+            <SidebarProfile />
             <SidebarNav />
         </section>
     )

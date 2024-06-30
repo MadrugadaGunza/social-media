@@ -1,0 +1,57 @@
+.item{
+    padding: .3rem .3rem 1rem .3rem;
+    border-bottom: 2px solid #eee;
+}
+
+/* profile */
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    border: 2px solid #1A73E4;
+    margin-right: 1rem;
+}
+
+/* description */
+.description p{
+    text-align: inherit;
+}
+
+.description img{
+    width: 100%;
+    margin-top: .5rem;
+}
+
+/* buttons */
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.buttons button{
+    background: #eee;
+    border: none;
+    border: 1px solid transparent;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+.buttons button:hover,
+.buttons button:focus{
+    background: #F2F5FA;
+    color: #0D6AE1;
+    border-color: #eee;
+    cursor: pointer;
+}
+
+.buttons div button{
+    margin-right: .5rem;
+}
